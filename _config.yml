@@ -1,0 +1,23 @@
+# GitHub Pages configuration
+theme: jekyll-theme-primer
+
+# Exclude files and folders from Jekyll processing
+exclude:
+  - "*.md"
+  - "docs"
+  - "node_modules"
+  - ".git"
+  - ".gitignore"
+
+# Include directories
+include:
+  - Assets
+  - catalogo
+
+# Build settings
+markdown: kramdown
+future: true
+show_drafts: false
+keep_files:
+  - Assets
+  - catalogo
